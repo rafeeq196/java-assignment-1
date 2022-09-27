@@ -1,0 +1,21 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class CheckPassFail {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		//int mark = 50;
+		System.out.println("Please enter your marks");
+		int mark = sc.nextInt();
+		if(mark>=50) {
+			System.out.println("You are pass");
+		}else {
+			System.out.println("Sorry you are failed");
+		}
+		
+
+	}
+
+}
