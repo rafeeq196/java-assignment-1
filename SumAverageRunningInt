@@ -12,6 +12,7 @@ public class SumAverageRunningInt {
 			number++;
 		}
 		System.out.println("The sum of 1 to 100 is " +sum);
+		System.out.println("The average of 1 to 100 is " +sum/100);
 
 	}
 
