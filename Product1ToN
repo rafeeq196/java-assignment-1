@@ -1,0 +1,20 @@
+package Exercise;
+
+public class Product1ToN {
+
+	public static void main(String[] args) {
+		int lowerbound = 1;// lowest value
+		int upperbound = 10;// highest value
+		int product = 1;
+		
+		int number = lowerbound;
+		while(number<=upperbound) {
+			product=product*number;
+			number++;
+		}
+		
+		System.out.println("The product from "+lowerbound+" to "+upperbound+" is "+product);
+
+	}
+
+}
