@@ -1,0 +1,20 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		System.out.println("Enter value of the base radius and height of a Cylinder ");
+		double radius = obj.nextDouble();
+		double height = obj.nextDouble();
+		double baseArea = Math.PI*radius*radius;// 
+		double surfaceArea = 2.0 * Math.PI * radius + 2.0 * baseArea;
+		
+		 System.out.printf("baseArea is : %.2f%n",baseArea);
+		 System.out.printf("The surfaceArea is : %.2f%n",surfaceArea);
+
+	}
+
+}
