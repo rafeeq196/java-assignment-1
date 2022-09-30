@@ -11,9 +11,10 @@ public class CylinderComputation {
 		double height = obj.nextDouble();
 		double baseArea = Math.PI*radius*radius;// 
 		double surfaceArea = 2.0 * Math.PI * radius + 2.0 * baseArea;
-		
+		double volume = baseArea * height; 
 		 System.out.printf("baseArea is : %.2f%n",baseArea);
 		 System.out.printf("The surfaceArea is : %.2f%n",surfaceArea);
+		 System.out.printf("The Volume of a Cylinder is : %.2f%n",volume);
 
 	}
 
