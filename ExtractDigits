@@ -1,0 +1,22 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class ExtractDigits {
+
+	public static void main(String[] args) {
+		Scanner inp =new Scanner(System.in);
+		System.out.println("Please enter any number to reverse it");
+		int input=inp.nextInt();
+		
+		while(input>0) {
+			int digit =input%10;//extract the least significant digit
+			System.out.print(digit);//print this digit
+			input =input/10;
+			//System.out.print(input);
+		}
+		
+
+	}
+
+}
