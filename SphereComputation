@@ -1,0 +1,19 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class SphereComputation {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		System.out.println("Enter value of the radius of a Sphere ");
+		double radius = obj.nextDouble();
+		double surfaceArea = 4.* Math.PI*radius*radius;
+		double volume = 4/3 *Math.PI*radius*radius*radius;
+		 System.out.printf("surfaceArea is: %.2f%n", surfaceArea); 
+		System.out.printf("The volume of a Sphere is : %.2f%n ",volume);
+				
+
+	}
+
+}
