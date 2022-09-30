@@ -1,0 +1,16 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class Add2Integers {
+
+	public static void main(String[] args) {
+		Scanner add = new Scanner(System.in);
+		System.out.println("Enter any two number to get their sum");
+		int num1=add.nextInt();//first entered number
+		int num2=add.nextInt();// second entered number
+		int sum =num1+num2;// addition of two entered numbers
+		System.out.println("The sum of two numbers is  :"+sum);
+	}
+
+}
