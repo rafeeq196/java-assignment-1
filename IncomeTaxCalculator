@@ -15,13 +15,13 @@ public class IncomeTaxCalculator {
 			System.out.printf("No tax for this salary");
 		}else if(salary>20000 && salary<=40000) {
 			tax=salary*0.10;
-			System.out.printf("taxable amount for "+salary+" is "+tax);
+			System.out.printf("taxable amount for "+salary+" is :%.2f%n ",tax);
 		}else if(salary>40000 && salary<=60000) {
 			tax=salary*0.20;
-			System.out.printf("taxable amount for "+salary+" is "+tax);
+			System.out.printf("taxable amount for "+salary+" is :%.2f%n ",tax);
 		}else {
 			tax=salary*0.30;
-			System.out.printf("taxable amount for "+salary+" is "+tax);}
+			System.out.printf("taxable amount for "+salary+" is :%.2f%n ",tax);}
 			
 		
 
