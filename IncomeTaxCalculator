@@ -1,0 +1,30 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class IncomeTaxCalculator {
+
+	public static void main(String[] args) {
+		Scanner Tax = new Scanner(System.in);
+		System.out.println("Enter your salary to get Taxable amount");
+		int salary =Tax.nextInt();
+		double tax;
+		//double percentage;
+		//double taxableSalary=salary*percentage;
+		if(salary<=20000) {
+			System.out.printf("No tax for this salary");
+		}else if(salary>20000 && salary<=40000) {
+			tax=salary*0.10;
+			System.out.printf("taxable amount for "+salary+" is "+tax);
+		}else if(salary>40000 && salary<=60000) {
+			tax=salary*0.20;
+			System.out.printf("taxable amount for "+salary+" is "+tax);
+		}else {
+			tax=salary*0.30;
+			System.out.printf("taxable amount for "+salary+" is "+tax);}
+			
+		
+
+	}
+
+}
