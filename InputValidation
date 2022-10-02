@@ -1,0 +1,20 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class InputValidation {
+
+	public static void main(String[] args) {
+		Scanner valid=new Scanner(System.in);
+		System.out.println("Enter your marks ");
+		int number=valid.nextInt();
+		boolean isValid= true;
+		while(number<0 ||number>100) {
+			isValid=false;
+			System.out.print("Thats Invalid marks you have entered, Try again");
+			number=valid.nextInt();
+		}
+		System.out.println("your mark "+number+" is valid");
+	}
+
+}
