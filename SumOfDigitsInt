@@ -1,0 +1,23 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class SumOfDigitsInt {
+
+	public static void main(String[] args) {
+		Scanner rev=new Scanner(System.in);
+		System.out.println("Enter any number to get sum of it");
+		int number=rev.nextInt();
+		int sum=0;
+		int reminder=0;
+		while(number>0) {
+			reminder=number%10;
+			sum=sum+reminder;
+			number=number/10;
+			
+			
+		}System.out.print(sum);
+
+	}
+
+}
