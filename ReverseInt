@@ -1,0 +1,22 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class ReverseInt {
+
+	public static void main(String[] args) {
+		Scanner rev=new Scanner(System.in);
+		System.out.println("Enter any number to get reverse of it");
+		int number=rev.nextInt();
+		int indigit;
+		while(number>0) {
+			indigit=number%10;
+			System.out.print(indigit);
+			number=number/10;
+			
+		}
+		
+
+	}
+
+}
