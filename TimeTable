@@ -1,0 +1,18 @@
+package assignment;
+
+public class TimeTable {
+
+	public static void main(String[] args) {
+		int size=10;
+		for(int row =1; row<=size;row++) {
+			//System.out.println("#");
+			for(int col=1;col<=size;col++) {
+			System.out.printf("%5d",col*row);
+			
+		
+		}System.out.println();
+	
+		}
+	}
+
+}
