@@ -1,0 +1,21 @@
+package assignment;
+
+public class TriangularPatternXb2 {
+
+	public static void main(String[] args) {
+		int n=8;
+		int n2 =3;
+		
+		for(int row =1; row<=8; row++) {
+			
+			for(int col=row; col<=8; col++) {
+	
+			System.out.print("#");
+				
+			}System.out.println();
+			
+			
+		}
+		
+	}
+	}
